@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "VoiceHover AI",
+  "version": "1.0",
+  "description": "Move cursor based on what you're talking about.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
