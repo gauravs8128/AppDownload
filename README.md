@@ -59,7 +59,7 @@ voice-hover-extension/
 
 ## 🧠 Author
 
-Built with ❤️ by Gaurav & ChatGPT
+Built with ❤️ by Gaurav 
 
 ---
 
